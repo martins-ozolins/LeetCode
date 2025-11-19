@@ -16,7 +16,7 @@ class Solution:
             # pop position to explore from
             row, column, distance = q.popleft()
 
-            # explore all four directions (move by ±1)
+            # explore all four directions (move by -+ 1)
             for dr, dc in directions:
                 next_row, next_col = row + dr, column + dc
 
